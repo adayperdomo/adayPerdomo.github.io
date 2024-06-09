@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 15px;
+    background-color: #3a3a3a;
+    display: grid;
+    grid-template-areas: "area1" "area2";
+    justify-content: center;
+    overflow: hidden;
+}
+
+nav>img{
+    grid-area: area1;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-size: large;
+}
+
+a:hover{
+    background-color: gray;
+    font-size: larger;
+}
+
+#nav{
+    grid-area: area2;
+    font-size: 100%;
+    flex-direction: row;
+}
+
+header img{
+    height: 25px;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+}
+
+#ima{
+    height: 200px;
+    border: 3px solid #cf721c;
+    margin: 20px;
+}
+
+#armas{
+    max-width: 1200px;
+    color: white;
+    margin: auto;
+    padding: auto;
+    width: 1500px;           
+    height: 850px;         
+    background: #3a3a3a;    
+    font-size: large;
+    text-align: justify;
+    text-align: center;
+}
+
+h2{
+    font-size: large;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+body {
+    animation: fadeIn 3s ease-in-out;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#3a3a3a;
+    color: white;
+    font-weight: 800;
+    bottom: 0;
+    position: static;
+}
+
+#foo{
+    height: 30px;
+    margin: 20px;
+    text-align: start;
+}
+
+#foo1{
+    text-decoration: underline;
+    color: white;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<recu>
+    <objetos>
+        <nombre>Agua de palacio</nombre>
+        <descripcion>Vaso lleno de agua divina, una bebida popular entre los nobles del palacio.</descripcion>
+        <caracteristicas>Hay que dárselo al Sacerdote de la Aldea Mibu para recibir sake Fuente del dragón.</caracteristicas>
+    </objetos>
+
+    <objetos>
+        <nombre>Campana protectora del joven señor</nombre>
+        <descripcion>Campana protectora recibida de una anciana como ofrenda para Buda.</descripcion>
+        <caracteristicas>Hay que ofrecerla a la estatua de Buda en el Templo desolado para poder acceder a la Hacienda Hirata.</caracteristicas>
+    </objetos>
+
+    <objetos>
+        <nombre>Capítulo sagrado: el regreso del Dragón</nombre>
+        <descripcion>Pasaje sagrado en el camino de la iluminación.</descripcion>
+        <caracteristicas>Objeto necesario para el final Retorno.</caracteristicas>
+    </objetos>
+
+    <objetos>
+        <nombre>Piedra cobijo</nombre>
+        <descripcion>Piedra encontrada en un altar de las profundidades de la aldea de los moradores acuáticos.</descripcion>
+        <caracteristicas>Es uno de los ingredientes que necesita Kuro para el Abandono de la inmortalidad.</caracteristicas>
+    </objetos>
+
+    <objetos>
+        <nombre>Sake Ashina</nombre>
+        <descripcion>Botella de sake de Ashina recibida de Emma. El sake se comparte.</descripcion>
+        <caracteristicas>Puede ser entregado a Isshin Ashina, al Escultor o a Emma para obtener diálogo adicional.</caracteristicas>
+    </objetos>
+</recu>
