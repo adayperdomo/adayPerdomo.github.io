@@ -81,6 +81,11 @@ h1{
     text-align: center;
 }
 
+#video{
+    border: 3px solid #cf721c;
+    border-radius: 6px;
+}
+
 footer{
     width: 100%;
     display: flex;
