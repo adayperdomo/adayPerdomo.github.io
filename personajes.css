@@ -73,60 +73,65 @@ p{
     max-width: 1200px;
     color: white;
     margin: auto;
-    padding: auto;
+    padding: 10px;
     width: 1500px;           
-    height: 170px;         
+    height: auto;         
     background: #3a3a3a;    
     font-size: large;
     text-align: justify;
+    border-radius: 6px;
 }
 
 #kuro{
     max-width: 1200px;
     color: white;
     margin: auto;
-    padding: auto;
+    padding: 10px;
     width: 1500px;           
-    height: 85px;         
+    height: auto;         
     background: #3a3a3a;    
     font-size: large;
     text-align: justify;
+    border-radius: 6px;
 }
 
 #emma{
     max-width: 1200px;
     color: white;
     margin: auto;
-    padding: auto;
+    padding: 10px;
     width: 1500px;           
-    height: 85px;         
+    height: auto;         
     background: #3a3a3a;    
     font-size: large;
     text-align: justify;
+    border-radius: 6px;
 }
 
 #genichiro{
     max-width: 1200px;
     color: white;
     margin: auto;
-    padding: auto;
+    padding: 10px;
     width: 1500px;           
-    height: 107px;         
+    height: auto;         
     background: #3a3a3a;    
     font-size: large;
     text-align: justify;
+    border-radius: 6px;
 }
 
 #isshin{
     max-width: 1200px;
     color: white;
     margin: auto;
-    padding: auto;
-    width: 1500px;           
-    height: 125px;         
+    padding: 10px;
+    width: auto;           
+    height:auto;         
     background: #3a3a3a;    
     font-size: large;
     text-align: justify;
+    border-radius: 6px;
 }
 
 .contenedor-linea{
@@ -162,6 +167,7 @@ footer{
     font-weight: 800;
     bottom: 0;
     position:static;
+    border-radius: 6px;
 }
 
 #foo{

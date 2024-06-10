@@ -59,7 +59,8 @@ header nav{
     padding: auto;
     width: 1500px;           
     height: 385px;         
-    background: #3a3a3a;       
+    background: #3a3a3a;      
+    border-radius: 6px; 
 }
 
 #tit{
@@ -100,6 +101,7 @@ footer{
     font-weight: 800;
     bottom: 0;
     position: absolute;
+    border-radius: 6px;
 }
 
 #foo{
