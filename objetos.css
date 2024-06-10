@@ -56,25 +56,33 @@ h1{
     display: flex;
     padding: 10px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 table {
-    border: 1px solid;
-    border-collapse: collapse;
+    border: 3px  solid #cf721c;
+    border-radius: 10px;
+    margin: 90px;
+    font-size: larger;
 }
 
-th, td {
+th, td{
     border: 3px solid;
     padding: 7px;
     border-collapse: collapse;
-  }
+}
 
 td{
     background-color: white;
 }
 
+td:hover{
+    background-color:#fcb900;
+}
+
 th{
-    background-color: rgb(92, 92, 255);
+    background-color: bisque;
 }
 
 @keyframes fadeIn {

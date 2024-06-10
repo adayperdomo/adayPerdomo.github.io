@@ -1,38 +1,30 @@
-"Use strict"
-
-consultarObjetos();
-
+consultarObjetos()
 function consultarObjetos(){
-        let xhttp;
+    let xhhtp
 
-        xhttp = new XMLHttpRequest();
-        xhttp.onload = function (){myFunction(this);}
-        xhttp.open("GET", "objetos.xml");
-        xhttp.send();
+    xhhtp = new XMLHttpRequest();
+    xhhtp.onload = function () {
+        mostrarObjetos(this);
+    }
+    xhhtp.open("GET", "objetos.xml");
+    xhhtp.send();
 }
 
-function myFunction(xml){
-    let xmlDoc, table, objetos, i;
+
+function mostrarObjetos(xml){
+    let xmlDoc, tabla, nombre, i, descripcion, caracteristicas;
 
     xmlDoc = xml.responseXML;
-    objetos = xmlDoc.getElementsByTagName("prueba");
-    table =
-        "<table>" +
-            "<thead>" +
-                "<tr><th>Nombre</th><th>Descrición</th><th>Características</th>"
-            "</thead>" +
-            "<tbody>"
-    for (i = 0; i <objetos.length; i++){
-         table += "<tr>" +
-                        
-                     "<td>" + xmlDoc.getElementsByTagName("nombre")[i].childNodes[0].nodeValue + "</td>" +
-                     "<td>" + xmlDoc.getElementsByTagName("descricion")[i].childNodes[0].nodeValue + "</td>" +
-                     "<td>" + xmlDoc.getElementsByTagName("caracteristicas")[i].childNodes[0].nodeValue + "</td>" +
-                 "</tr>";
-     }
-    table +=
-            "</tbody>" +
-        "</table>";
-
-        document.getElementById("objetos").innerHTML = table;
-}           
+    tabla = "<table>";
+    tabla += "<tr><th>Nombre</th><th>Descrición</th><th>Características</th></tr>";
+    numeroCoches = xmlDoc.getElementsByTagName("objetos").length;
+    for(i=0; i<numeroCoches; i++){
+        nombre = xmlDoc.getElementsByTagName("nombre")[i].childNodes[0].nodeValue;
+        descripcion = xmlDoc.getElementsByTagName("descripcion")[i].childNodes[0].nodeValue;
+        caracteristicas = xmlDoc.getElementsByTagName("caracteristicas")[i].childNodes[0].nodeValue;
+        tabla += "<tr><td>" + nombre + "</td><td>" + descripcion + "</td><td>" + caracteristicas + "</td></tr>";
+    }
+    tabla += "</table>";
+    
+    document.getElementById("objetos").innerHTML = tabla;
+}
