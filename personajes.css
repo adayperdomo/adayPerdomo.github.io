@@ -129,6 +129,19 @@ p{
     text-align: justify;
 }
 
+.contenedor-linea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.linea{
+    border-bottom: 2px solid white;
+    border-radius: 6px;
+    width: 90%;
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
