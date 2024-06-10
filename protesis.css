@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 15px;
+    background-color: #3a3a3a;
+    display: grid;
+    grid-template-areas: "area1" "area2";
+    justify-content: center;
+    overflow: hidden;
+}
+
+nav>img{
+    grid-area: area1;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-size: large;
+}
+
+a:hover{
+    background-color: gray;
+    font-size: larger;
+}
+
+#nav{
+    grid-area: area2;
+    font-size: 100%;
+    flex-direction: row;
+}
+
+header img{
+    height: 25px;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#protesis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#protesis h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#protesis h2{
+    margin-top: 30px;
+    color: white;
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.t{
+    border: 3px solid white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 6px;
+}
+
+.tarjetas img{
+    width: 300px;
+    border: 3px solid #cf721c;
+    border-radius: 6px;
+}
+
+.tarjetas img:hover{
+    width: 350px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+body {
+    animation: fadeIn 3s ease-in-out;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#3a3a3a;
+    color: white;
+    font-weight: 800;
+    bottom: 0;
+    position:fixed;
+    border-radius: 6px;
+}
+
+#foo{
+    height: 30px;
+    margin: 20px;
+    text-align: start;
+}
+
+#foo1{
+    text-decoration: underline;
+    color: white;
+}
