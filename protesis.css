@@ -60,6 +60,17 @@ header nav{
     padding-bottom: 50px;
 }
 
+#protesisENG h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#protesisENG h2{
+    margin-top: 30px;
+    color: white;
+}
+
 #protesis h1{
     text-align: center;
     font-weight: bold;

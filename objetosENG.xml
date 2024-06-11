@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <recu>
-<objetos>
-    <nombre>Palace Water</nombre>
-    <descripcion>Glass filled with divine water, a popular drink among the nobles of the palace.</descripcion>
-    <caracteristicas>It must be given to the Priest of the Mibu Village to receive Dragon Spring sake.</caracteristicas>
-</objetos>
+    <objetos>
+        <nombre>Palace Water</nombre>
+        <descripcion>Glass filled with divine water, a popular drink among the nobles of the palace.</descripcion>
+        <caracteristicas>It must be given to the Priest of the Mibu Village to receive Dragon Spring sake.</caracteristicas>
+    </objetos>
 
-<objetos>
-    <nombre>Young Lord's Bell Charm</nombre>
-    <descripcion>Protective bell received from an old woman as an offering to Buddha.</descripcion>
-    <caracteristicas>It must be offered to the Buddha statue in the Dilapidated Temple to access the Hirata Estate.</caracteristicas>
-</objetos>
+    <objetos>
+        <nombre>Young Lord's Bell Charm</nombre>
+        <descripcion>Protective bell received from an old woman as an offering to Buddha.</descripcion>
+        <caracteristicas>It must be offered to the Buddha statue in the Dilapidated Temple to access the Hirata Estate.</caracteristicas>
+    </objetos>
 
-<objetos>
-    <nombre>Holy Chapter: Dragon's Return</nombre>
-    <descripcion>Sacred passage on the path to enlightenment.</descripcion>
-    <caracteristicas>Necessary item for the Return ending.</caracteristicas>
-</objetos>
+    <objetos>
+        <nombre>Holy Chapter: Dragon's Return</nombre>
+        <descripcion>Sacred passage on the path to enlightenment.</descripcion>
+        <caracteristicas>Necessary item for the Return ending.</caracteristicas>
+    </objetos>
 
-<objetos>
-    <nombre>Shelter Stone</nombre>
-    <descripcion>Stone found on an altar in the depths of the village of the water-dwellers.</descripcion>
-    <caracteristicas>It is one of the ingredients Kuro needs for the Abandonment of Immortality.</caracteristicas>
-</objetos>
+    <objetos>
+        <nombre>Shelter Stone</nombre>
+        <descripcion>Stone found on an altar in the depths of the village of the water-dwellers.</descripcion>
+        <caracteristicas>It is one of the ingredients Kuro needs for the Abandonment of Immortality.</caracteristicas>
+    </objetos>
 
-<objetos>
-    <nombre>Ashina Sake</nombre>
-    <descripcion>Bottle of Ashina sake received from Emma. Sake is shared.</descripcion>
-    <caracteristicas>It can be given to Isshin Ashina, the Sculptor, or Emma to obtain additional dialogue.</caracteristicas>
-</objetos>
+    <objetos>
+        <nombre>Ashina Sake</nombre>
+        <descripcion>Bottle of Ashina sake received from Emma. Sake is shared.</descripcion>
+        <caracteristicas>It can be given to Isshin Ashina, the Sculptor, or Emma to obtain additional dialogue.</caracteristicas>
+    </objetos>
+</recu>
