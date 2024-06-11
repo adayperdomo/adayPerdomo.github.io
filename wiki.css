@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #000000;
 }
 
 header{
@@ -16,6 +16,10 @@ header{
     grid-template-areas: "area1" "area2";
     justify-content: center;
     overflow: hidden;
+}
+
+nav>img{
+    grid-area: area1;
 }
 
 header nav a{
@@ -31,6 +35,7 @@ a:hover{
 }
 
 #nav{
+    grid-area: area2;
     font-size: 100%;
     flex-direction: row;
 }

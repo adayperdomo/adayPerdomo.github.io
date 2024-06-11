@@ -16,7 +16,7 @@ function mostrarObjetos(xml){
 
     xmlDoc = xml.responseXML;
     tabla = "<table>";
-    tabla += "<tr><th>Nombre</th><th>Descrición</th><th>Características</th></tr>";
+    tabla += "<tr><th>Name</th><th>Description</th><th>Characteristics</th></tr>";
     numeroCoches = xmlDoc.getElementsByTagName("objetos").length;
     for(i=0; i<numeroCoches; i++){
         nombre = xmlDoc.getElementsByTagName("nombre")[i].childNodes[0].nodeValue;
